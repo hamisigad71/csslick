@@ -753,7 +753,7 @@ hr {
   left: 0;
   margin: auto;
   position: fixed;
-  top: 0;
+  top: 0%;
   width: 100%;
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
   box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
@@ -3513,18 +3513,24 @@ hr {
 
 /* line 32, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
 .slider-area {
-  background-image: url(https://www.shutterstock.com/image-vector/pregnant-mom-vector-logo-design-600nw-2045257454.jpg);
+  background-image: url(https://hamisigad71.github.io/images/pre2.jpeg);
+ 
+  
   background-repeat: no-repeat;
-  background-position: center center;
   background-size: cover;
+  position: relative;
+
+  height: 900px;
+  margin-bottom: 0%;
 }
 
 /* line 39, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption h1 {
   font-size: 70px;
+  padding-top: 40%;
   font-weight: 800;
   margin-bottom: 14px;
-  color: #002d5b;
+  color: #dee2e6;
   line-height: 1.2;
   text-transform: capitalize;
   margin-bottom: 29px;
@@ -3544,6 +3550,7 @@ hr {
     font-size: 50px;
     line-height: 1.2;
   }
+  
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
