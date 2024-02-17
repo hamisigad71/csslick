@@ -3518,8 +3518,11 @@ hr {
   
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-
+  position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+padding-right: 30%;
   height: 900px;
   margin-bottom: 0%;
 }
@@ -3527,10 +3530,10 @@ hr {
 /* line 39, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption h1 {
   font-size: 70px;
-  padding-top: 40%;
+  padding-top: 100%;
   font-weight: 800;
   margin-bottom: 14px;
-  color: #dee2e6;
+  color: #a9d7b2;
   line-height: 1.2;
   text-transform: capitalize;
   margin-bottom: 29px;
